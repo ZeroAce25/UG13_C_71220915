@@ -1,0 +1,72 @@
+import turtle
+s = turtle.Screen()
+t = turtle.Turtle()
+t.speed(20)
+
+#Huruf L
+t.penup()
+t.goto(-300,100)
+t.pensize(15)
+t.pencolor("#FFFFD0")
+s.bgcolor("#A555EC")
+t.pendown()
+t.right(90)
+t.forward(100)
+t.left(90)
+t.forward(70)
+t.penup()
+
+
+#Huruf K
+t.goto(0,100)
+t.penup()
+t.pendown()
+t.right(90)
+t.forward(100)
+t.left(180)
+t.forward(50)
+t.right(45)
+t.forward(68)
+t.left(180)
+t.forward(68)
+t.left(90)
+t.forward(68)
+t.penup()
+
+#Angka 9
+t.goto(-100,250)
+t.penup()
+t.pendown()
+t.right(45)
+t.penup()
+t.forward(70)
+t.pendown()
+t.left(180)
+t.forward(50)
+t.circle(30,-360)
+t.right(180)
+t.forward(60)
+t.circle(-30,180)
+t.penup()
+
+#Angka 1
+t.goto(-115,0)
+t.penup()
+t.pendown()
+t.forward(100)
+t.left(135)
+t.forward(50)
+t.penup()
+
+#Angka 5
+t.left(45)
+t.goto(-100, -50)
+t.pendown()
+t.right(90)
+t.forward(50)
+t.left(90)
+t.forward(45)
+t.left(90)
+t.forward(27)
+t.circle(-30,250)
+
